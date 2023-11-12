@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cerveceria.app.vistas.login">
+    <Login.Content>
+        <StackLayout>
+            <Label Text="LOGIN! :3 "
+                VerticalOptions="CenterAndExpand"  />
+            <Frame>
+                <StackLayout verticalOptions ="center"
+                             Spacing="20"> 
+                    <Image Source="puede ser la direccion de internet o local"/>
+                    <Label>"alla le inician la secion"</Label>
+                    <Label> "falta los cuadros de ingreso"</Label>
+                    
+                    <Button Text="iniciar" 
+                            TextTransform="None"
+                            cornerRadius="20"
+                            Fontsize="medium"
+                            fontatributes="blod"
+                    </Button>
+                            
+                    
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        
+    </l.Content>
+</ContentPage>
